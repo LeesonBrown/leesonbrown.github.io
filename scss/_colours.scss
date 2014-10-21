@@ -1,11 +1,13 @@
-$cream: #FAF9F5;
-$cream-lighter: lighten($cream, 10%);
-$cream-darker: darken($cream, 10%);
+$white: #FFFFFF;
 
-$text: #535C61;
-$text-lighter: lighten($text, 10%);
-$text-darker: darken($text, 10%);
+$cream: #FAF9F5;
+$cream-lightest: lighten($cream, 10%);
+$cream-darkest: darken($cream, 10%);
+
+$grey: #535C61;
+$grey-lightest: lighten($grey, 10%);
+$grey-darkest: darken($grey, 10%);
 
 $coral: #F08080;
-$coral-lighter: lighten($coral, 10%);
-$coral-darker: darken($coral, 10%);
+$coral-lightest: lighten($coral, 10%);
+$coral-darkest: darken($coral, 10%);

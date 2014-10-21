@@ -4,22 +4,63 @@
 @import '_colours.scss';
 
 body {
-    background: $cream;
-    color: $coral;
-    font-family: "nimbus-sans",sans-serif;
+    background: $white;
+    color: $grey;
 }
-
-#alb-logo {
-    margin: 0 auto;
-    width: 200px;
-    height: auto;
-    .alb-logo-one {
-        fill: $coral;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "merriweather", serif;
+    font-weight: 300;
+    color: $coral;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    color: $coral;
+}
+.header {
+    margin-top: 50px;
+    .header-left {
+        background: $cream;
+        #alb-logo {
+            margin: 0 auto;
+            width: 200px;
+            height: auto;
+            .alb-logo-one {
+                fill: $coral;
+            }
+            .alb-logo-two {
+                fill: $coral;
+            }
+            .alb-logo-three {
+                fill: $coral;
+            }
+        }
     }
-    .alb-logo-two {
-        fill: $coral;
+    .header-right {
+        background: $coral;
+        h1 {
+            color: $white;
+        }
+        p {
+            color: $white;
+        }
     }
-    .alb-logo-three {
-        fill: $coral;
+}
+.footer-cta {
+    background: $cream;
+    padding: 70px 0;
+    a {
+        display: inline-block;
+        text-decoration: none;
+        background: $white;
+        padding: 14px 35px 10px;
+        border: 3px solid $coral;
+        border-radius: 100px;
     }
+}
+.footer {
+    background: $grey;
+    color: $white;
 }

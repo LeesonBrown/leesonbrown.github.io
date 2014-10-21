@@ -73,7 +73,7 @@ select { width: 100% }
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    max-width: 62.5em;
+    /* max-width: 62.5em ;*/
 }
 .row:before, .row:after {
     content: " ";
@@ -1112,4 +1112,11 @@ select { width: 100% }
     }
     .large-block-grid-12 > li:nth-of-type(1n) { clear: none }
     .large-block-grid-12 > li:nth-of-type(12n+1) { clear: both }
+}
+
+.full-width {
+    max-width: 100%;
+}
+.text-center {
+    text-align: center;
 }
